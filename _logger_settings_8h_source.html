@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Advanced Logger<span id="projectnumber">&#160;v1.0.0.0</span>
+   <div id="projectname">Advanced Logger<span id="projectnumber">&#160;v1.0.1</span>
    </div>
    <div id="projectbrief">Logger</div>
   </td>
@@ -139,22 +139,33 @@ $(function(){initNavTree('_logger_settings_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#a4f48e821625da31478ef38d5e616f8f8">   71</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#a4f48e821625da31478ef38d5e616f8f8">ULoggerSettings</a>(<span class="keyword">const</span> FObjectInitializer&amp; ObjectInitializer = FObjectInitializer::Get());</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#acdafb2d525f30042325bc71791ecc617">   77</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#acdafb2d525f30042325bc71791ecc617">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Colors&quot;</span>,</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        meta=(ShowOnlyInnerProperties))</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_struct" href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a> Log;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#ace00bb7af96a8c6ff2845edef8392a3b">   84</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#ace00bb7af96a8c6ff2845edef8392a3b">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Colors&quot;</span>,</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        meta=(ShowOnlyInnerProperties))</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <a class="code hl_struct" href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a> Warn;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#a7d58dc26228c2d7e08113db675e4b9f7">   91</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#a7d58dc26228c2d7e08113db675e4b9f7">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Colors&quot;</span>,</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        meta=(ShowOnlyInnerProperties))</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <a class="code hl_struct" href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a> Error;</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#a3b836a7f3061d8eddf6f0c0c857d5f77">   78</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#a3b836a7f3061d8eddf6f0c0c857d5f77">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Build&quot;</span>,</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        meta=(ShowOnlyInnerProperties))</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">bool</span> bScreenLog;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#a862ce95fbde90e525e5d6e74e061bdf7">   85</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#a862ce95fbde90e525e5d6e74e061bdf7">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Build&quot;</span>,</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        meta=(ShowOnlyInnerProperties))</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">bool</span> bConsoleLog;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#acdafb2d525f30042325bc71791ecc617">   92</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#acdafb2d525f30042325bc71791ecc617">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Colors&quot;</span>,</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        meta=(ShowOnlyInnerProperties))</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_struct" href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a> Log;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#ace00bb7af96a8c6ff2845edef8392a3b">   99</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#ace00bb7af96a8c6ff2845edef8392a3b">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Colors&quot;</span>,</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        meta=(ShowOnlyInnerProperties))</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <a class="code hl_struct" href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a> Warn;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_u_logger_settings.html#a7d58dc26228c2d7e08113db675e4b9f7">  106</a></span>    <a class="code hl_function" href="class_u_logger_settings.html#a7d58dc26228c2d7e08113db675e4b9f7">UPROPERTY</a>(BlueprintReadWrite, EditAnywhere, Config, Category=<span class="stringliteral">&quot;Colors&quot;</span>,</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        meta=(ShowOnlyInnerProperties))</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <a class="code hl_struct" href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a> Error;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
 </div>
 <div class="ttc" id="aclass_u_logger_settings_html"><div class="ttname"><a href="class_u_logger_settings.html">ULoggerSettings</a></div><div class="ttdoc">A class that defines the settings for the advanced logger, including different log categories.</div><div class="ttdef"><b>Definition</b> LoggerSettings.h:60</div></div>
+<div class="ttc" id="aclass_u_logger_settings_html_a3b836a7f3061d8eddf6f0c0c857d5f77"><div class="ttname"><a href="class_u_logger_settings.html#a3b836a7f3061d8eddf6f0c0c857d5f77">ULoggerSettings::UPROPERTY</a></div><div class="ttdeci">UPROPERTY(BlueprintReadWrite, EditAnywhere, Config, Category=&quot;Build&quot;, meta=(ShowOnlyInnerProperties)) bool bScreenLog</div><div class="ttdoc">Should the screen logs remain in the 'NO_LOGGING' build?</div></div>
 <div class="ttc" id="aclass_u_logger_settings_html_a4f48e821625da31478ef38d5e616f8f8"><div class="ttname"><a href="class_u_logger_settings.html#a4f48e821625da31478ef38d5e616f8f8">ULoggerSettings::ULoggerSettings</a></div><div class="ttdeci">ULoggerSettings(const FObjectInitializer &amp;ObjectInitializer=FObjectInitializer::Get())</div><div class="ttdoc">Constructor for ULoggerSettings.</div></div>
 <div class="ttc" id="aclass_u_logger_settings_html_a7d58dc26228c2d7e08113db675e4b9f7"><div class="ttname"><a href="class_u_logger_settings.html#a7d58dc26228c2d7e08113db675e4b9f7">ULoggerSettings::UPROPERTY</a></div><div class="ttdeci">UPROPERTY(BlueprintReadWrite, EditAnywhere, Config, Category=&quot;Colors&quot;, meta=(ShowOnlyInnerProperties)) FLoggerCategorySettings Error</div><div class="ttdoc">Settings for the Error category.</div></div>
+<div class="ttc" id="aclass_u_logger_settings_html_a862ce95fbde90e525e5d6e74e061bdf7"><div class="ttname"><a href="class_u_logger_settings.html#a862ce95fbde90e525e5d6e74e061bdf7">ULoggerSettings::UPROPERTY</a></div><div class="ttdeci">UPROPERTY(BlueprintReadWrite, EditAnywhere, Config, Category=&quot;Build&quot;, meta=(ShowOnlyInnerProperties)) bool bConsoleLog</div><div class="ttdoc">Should the console logs remain in the 'NO_LOGGING' build?</div></div>
 <div class="ttc" id="aclass_u_logger_settings_html_acdafb2d525f30042325bc71791ecc617"><div class="ttname"><a href="class_u_logger_settings.html#acdafb2d525f30042325bc71791ecc617">ULoggerSettings::UPROPERTY</a></div><div class="ttdeci">UPROPERTY(BlueprintReadWrite, EditAnywhere, Config, Category=&quot;Colors&quot;, meta=(ShowOnlyInnerProperties)) FLoggerCategorySettings Log</div><div class="ttdoc">Settings for the Log category.</div></div>
 <div class="ttc" id="aclass_u_logger_settings_html_ace00bb7af96a8c6ff2845edef8392a3b"><div class="ttname"><a href="class_u_logger_settings.html#ace00bb7af96a8c6ff2845edef8392a3b">ULoggerSettings::UPROPERTY</a></div><div class="ttdeci">UPROPERTY(BlueprintReadWrite, EditAnywhere, Config, Category=&quot;Colors&quot;, meta=(ShowOnlyInnerProperties)) FLoggerCategorySettings Warn</div><div class="ttdoc">Settings for the Warn category.</div></div>
 <div class="ttc" id="astruct_f_logger_category_settings_html"><div class="ttname"><a href="struct_f_logger_category_settings.html">FLoggerCategorySettings</a></div><div class="ttdoc">A struct that defines settings for logger categories, including screen and console colors.</div><div class="ttdef"><b>Definition</b> LoggerSettings.h:18</div></div>
